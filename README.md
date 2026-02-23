@@ -7,6 +7,27 @@ A collection of Java projects and assignments organized by task.
 - **Task-1-Calculator**: Calculator application
 - **Task-2-Student-Management**: Student management system
 - **Task-3-Library-Management**: Library management system
+- **Task-4**: Java File I/O Notes App
+
+## Task-4: Java File I/O - Notes App
+
+This project demonstrates Java File I/O concepts:
+
+- **File I/O**: FileReader, FileWriter, BufferedReader
+- **Exception Handling**: try-catch blocks
+- **try-with-resources**: Automatic resource management
+- **Checked & Unchecked Exceptions**: IOException, NumberFormatException
+- **Append vs Overwrite Mode**: FileWriter with boolean flag
+- **Stack Trace & Finally Block**: Exception handling best practices
+
+### Running the Program
+
+```
+bash
+cd Task-4
+javac *.java
+java Main
+```
 
 ## Task-3: Library Management System
 
