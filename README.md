@@ -9,6 +9,28 @@ A collection of Java projects and assignments organized by task.
 - **Task-3-Library-Management**: Library management system
 - **Task-4**: Java File I/O Notes App
 
+## Task-2: Student Record Management System
+
+This project demonstrates CLI-based CRUD operations:
+
+- **Classes & Objects**: Student class with fields
+- **Encapsulation**: Private fields with getters/setters
+- **Constructors**: Default and parameterized constructors
+- **Collections**: ArrayList<Student> for dynamic storage
+- **Loops**: While loop for menu
+- **Conditional Statements**: Switch-case for choices
+- **CRUD Operations**: Add, View, Update, Delete students
+- **Sorting**: ArrayList sorting by marks
+
+### Running the Program
+
+```
+bash
+cd Task-2-Student-Management
+javac *.java
+java Main
+```
+
 ## Task-4: Java File I/O - Notes App
 
 This project demonstrates Java File I/O concepts:
