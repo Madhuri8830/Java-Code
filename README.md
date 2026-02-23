@@ -9,6 +9,27 @@ A collection of Java projects and assignments organized by task.
 - **Task-3-Library-Management**: Library management system
 - **Task-4**: Java File I/O Notes App
 
+## Task-1: Java Console Calculator
+
+This project demonstrates basic Java syntax and logic flow:
+
+- **OOP**: Object-Oriented Programming with Calculator class
+- **Methods**: Addition, subtraction, multiplication, division
+- **Method Overloading**: Same method name, different parameters
+- **Conditionals**: if-else, switch-case
+- **Loops**: while loop for repeated calculations
+- **Input/Output**: Scanner class for user input
+- **Exception Handling**: Divide-by-zero handling
+
+### Running the Program
+
+```
+bash
+cd Task-1-Calculator
+javac *.java
+java Main
+```
+
 ## Task-2: Student Record Management System
 
 This project demonstrates CLI-based CRUD operations:
@@ -31,26 +52,6 @@ javac *.java
 java Main
 ```
 
-## Task-4: Java File I/O - Notes App
-
-This project demonstrates Java File I/O concepts:
-
-- **File I/O**: FileReader, FileWriter, BufferedReader
-- **Exception Handling**: try-catch blocks
-- **try-with-resources**: Automatic resource management
-- **Checked & Unchecked Exceptions**: IOException, NumberFormatException
-- **Append vs Overwrite Mode**: FileWriter with boolean flag
-- **Stack Trace & Finally Block**: Exception handling best practices
-
-### Running the Program
-
-```
-bash
-cd Task-4
-javac *.java
-java Main
-```
-
 ## Task-3: Library Management System
 
 This project demonstrates Object-Oriented Programming concepts:
@@ -67,6 +68,26 @@ This project demonstrates Object-Oriented Programming concepts:
 ```
 bash
 cd Task-3-Library-Management
+javac *.java
+java Main
+```
+
+## Task-4: Java File I/O - Notes App
+
+This project demonstrates Java File I/O concepts:
+
+- **File I/O**: FileReader, FileWriter, BufferedReader
+- **Exception Handling**: try-catch blocks
+- **try-with-resources**: Automatic resource management
+- **Checked & Unchecked Exceptions**: IOException, NumberFormatException
+- **Append vs Overwrite Mode**: FileWriter with boolean flag
+- **Stack Trace & Finally Block**: Exception handling best practices
+
+### Running the Program
+
+```
+bash
+cd Task-4
 javac *.java
 java Main
 ```
