@@ -15,10 +15,8 @@
     <groupId>com.bookstore</groupId>
     <artifactId>bookstore-api</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
-    
     <name>Bookstore REST API</name>
-    <description>RESTful Bookstore API with Spring Boot, JPA, and H2 Database</description>
+    <description>RESTful Bookstore API with Spring Boot, JPA, H2</description>
     
     <properties>
         <java.version>17</java.version>
@@ -44,14 +42,14 @@
             <scope>runtime</scope>
         </dependency>
         
-        <!-- MySQL Driver (optional - for MySQL) -->
+        <!-- MySQL Connector -->
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
         </dependency>
         
-        <!-- Swagger UI -->
+        <!-- SpringDoc OpenAPI (Swagger) -->
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
@@ -62,6 +60,14 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        
+        <!-- Spring Boot DevTools -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
         
